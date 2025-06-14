@@ -1,0 +1,50 @@
+.org-chart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .org-level {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      .org-node {
+        background-color: white;
+        border: 2px solid #16a34a;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        margin: 0 1rem;
+        text-align: center;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        min-width: 200px;
+      }
+      .org-node h4 {
+        font-weight: bold;
+        color: #16a34a;
+        margin-bottom: 0.5rem;
+      }
+      .org-node p {
+        font-size: 0.875rem;
+        color: #4b5563;
+      }
+      .org-lines {
+        position: relative;
+        height: 2rem;
+        width: 100%;
+      }
+      .org-line {
+        position: absolute;
+        height: 2rem;
+        width: 2px;
+        background-color: #16a34a;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .org-line-horizontal {
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: #16a34a;
+        top: 50%;
+      }
