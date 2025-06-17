@@ -12,7 +12,7 @@
                 </a>
             </div>
 
-            @if (session('success'))
+            {{-- @if (session('success'))
                 <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4"
                     role="alert">
                     <strong class="font-bold">Success!</strong>
@@ -43,7 +43,7 @@
                         </svg>
                     </span>
                 </div>
-            @endif
+            @endif --}}
 
             <div class="overflow-x-auto">
                 <table class="min-w-full bg-white border border-gray-200" id="example1">

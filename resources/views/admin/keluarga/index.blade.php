@@ -1,7 +1,7 @@
 @extends('partials.admin.main')
 @section('content')
     <div class="flex-1 p-6 overflow-hidden">
-        <h2 class="text-xl font-semibold text-gray-800 mb-4">Daftar Keluarga</h2>
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">Data Keluarga</h2>
         <div class="bg-white shadow-md rounded-lg p-6">
             <div class="flex justify-between items-center mb-4">
                 <a href="{{ route('admin.keluarga.create') }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
