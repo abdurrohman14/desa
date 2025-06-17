@@ -1,7 +1,7 @@
 @extends('partials.admin.main')
 @section('content')
     <div class="flex-1 p-6 overflow-hidden">
-        <h2 class="text-xl font-semibold text-gray-800 mb-4">Daftar UMKM</h2>
+        <h2 class="text-xl font-semibold text-gray-800 mb-4">UMKM</h2>
         <div class="bg-white shadow-md rounded-lg p-6">
 
             <!-- Tombol Tambah dengan Modal Trigger -->
