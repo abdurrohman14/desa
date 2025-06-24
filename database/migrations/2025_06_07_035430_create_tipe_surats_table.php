@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('tipe_surats', function (Blueprint $table) {
             $table->id();
+            $table->string('kode_surat');
             $table->string('nama');
             $table->text('deskripsi')->nullable();
             $table->string('template_view')->nullable();
