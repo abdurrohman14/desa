@@ -144,6 +144,7 @@
             </div>
         </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Script untuk toggle password visibility dan validasi -->
     <script>
         // Toggle password visibility
@@ -193,6 +194,27 @@
 
         password.addEventListener("input", validatePassword);
         confirmPassword.addEventListener("input", validatePassword);
+
+        // alert
+        document.addEventListener('DOMContentLoaded', function() {
+            @if (session('success'))
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Berhasil',
+                    text: '{{ session('success') }}',
+                    confirmButtonText: 'OK',
+                });
+            @endif
+
+            @if (session('error'))
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Gagal',
+                    text: '{{ session('error') }}',
+                    confirmButtonText: 'OK',
+                });
+            @endif
+        });
     </script>
 </body>
 

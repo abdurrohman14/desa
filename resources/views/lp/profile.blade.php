@@ -188,7 +188,8 @@
                         </h3>
                         <div class="flex flex-col md:flex-row gap-4">
                             <div class="md:w-1/4 flex justify-center">
-                                <img src="{{ asset('assets/images/logo-desa.png') }}" alt="Lambang Desa" class="w-32 h-32 object-contain">
+                                <img src="{{ asset('assets/images/logo-desa.png') }}" alt="Lambang Desa"
+                                    class="w-32 h-32 object-contain">
                             </div>
                             <div class="md:w-3/4">
                                 <p class="text-gray-600">
@@ -274,7 +275,7 @@
                 </section>
 
                 <!-- Struktur Organisasi Section -->
-                {{-- <section id="struktur" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <section id="struktur" class="bg-white rounded-lg shadow-md p-6 mb-8">
                     <div class="flex items-center mb-6">
                         <div class="bg-green-100 p-3 rounded-full mr-4">
                             <i class="fas fa-sitemap text-green-600 text-xl"></i>
@@ -289,90 +290,14 @@
                             Bulusari.
                         </p>
 
-                        <!-- Organizational Chart -->
-                        <div class="org-chart">
-                            <!-- Level 1 - Kepala Desa -->
-                            <div class="org-level">
-                                <div class="org-node">
-                                    <h4>Kepala Desa</h4>
-                                    <p>Drs. H. Ahmad Fauzi</p>
-                                    <p class="text-xs text-gray-500">2023-2028</p>
-                                </div>
-                            </div>
-
-                            <div class="org-lines">
-                                <div class="org-line"></div>
-                            </div>
-
-                            <!-- Level 2 - Sekretaris dan Pelaksana -->
-                            <div class="org-level">
-                                <div class="org-node">
-                                    <h4>Sekretaris Desa</h4>
-                                    <p>Bambang Sutrisno, S.Sos</p>
-                                </div>
-
-                                <div class="org-node">
-                                    <h4>Pelaksana Teknis</h4>
-                                    <p>3 Bidang</p>
-                                </div>
-
-                                <div class="org-node">
-                                    <h4>Kepala Urusan</h4>
-                                    <p>5 Urusan</p>
-                                </div>
-                            </div>
-
-                            <div class="org-lines">
-                                <div class="org-line"></div>
-                                <div class="org-line-horizontal"></div>
-                            </div>
-
-                            <!-- Level 3 - Detail -->
-                            <div class="org-level">
-                                <!-- Pelaksana Teknis -->
-                                <div class="flex flex-col">
-                                    <div class="org-node mb-2">
-                                        <h4>Bidang Pemerintahan</h4>
-                                        <p>Siti Aminah, S.IP</p>
-                                    </div>
-                                    <div class="org-node mb-2">
-                                        <h4>Bidang Pembangunan</h4>
-                                        <p>Joko Susilo, ST</p>
-                                    </div>
-                                    <div class="org-node">
-                                        <h4>Bidang Kemasyarakatan</h4>
-                                        <p>Dewi Kartika, S.Sos</p>
-                                    </div>
-                                </div>
-
-                                <!-- Kepala Urusan -->
-                                <div class="flex flex-col">
-                                    <div class="org-node mb-2">
-                                        <h4>Urusan Umum</h4>
-                                        <p>Rudi Hartono</p>
-                                    </div>
-                                    <div class="org-node mb-2">
-                                        <h4>Urusan Keuangan</h4>
-                                        <p>Linda Wulandari, SE</p>
-                                    </div>
-                                    <div class="org-node mb-2">
-                                        <h4>Urusan Perencanaan</h4>
-                                        <p>Agus Priyanto</p>
-                                    </div>
-                                    <div class="org-node mb-2">
-                                        <h4>Urusan Kesejahteraan</h4>
-                                        <p>Nurhayati</p>
-                                    </div>
-                                    <div class="org-node">
-                                        <h4>Urusan Pelayanan</h4>
-                                        <p>Rina Marliana</p>
-                                    </div>
-                                </div>
-                            </div>
+                        <!-- Ganti chart HTML dengan gambar -->
+                        <div class="flex justify-center">
+                            <img src="{{ asset('assets/images/struktur-desa.jpeg') }}"
+                                alt="Struktur Organisasi Desa Bulusari" class="w-full max-w-4xl rounded shadow">
                         </div>
                     </div>
 
-                    <div class="mt-8">
+                    {{-- <div class="mt-8">
                         <h3 class="text-lg font-semibold text-gray-800 mb-4">Badan Permusyawaratan Desa (BPD)</h3>
                         <div class="overflow-x-auto">
                             <table class="min-w-full bg-white border border-gray-200">
@@ -418,8 +343,8 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
-                </section> --}}
+                    </div> --}}
+                </section>
 
                 <!-- Data Demografi Section -->
                 <section id="demografi" class="bg-white rounded-lg shadow-md p-6">

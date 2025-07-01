@@ -10,12 +10,12 @@
         >
           <div class="md:w-1/3 p-4">
             <img
-              src="{{ asset('assets/images/Kepala Desa Jaka Waluya.jpg') }}"
+              src="{{ asset('assets/images/kepala-desa.jpeg') }}"
               alt="Kepala Desa"
-              class="w-full max-w-xs h-auto rounded-lg"
+              class="w-60 h-60 object-cover rounded-full shadow mx-auto"
             />
             <div class="mt-4 text-center">
-              <h3 class="font-bold text-lg">Bpk Jaka Waluya</h3>
+              <h3 class="font-bold text-lg">Mukhlish, M.Pd.I</h3>
               <p class="text-gray-600">Kepala Desa Bulusari</p>
             </div>
           </div>

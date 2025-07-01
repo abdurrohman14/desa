@@ -45,15 +45,17 @@
                 <div class="md:flex">
                     <!-- Gallery Section -->
                     <div class="md:w-1/2">
-                        <div class="h-64 md:h-full bg-gray-100 relative">
-                            <img src="{{ asset('storage/umkm_images/' . $umkm->gambar) }}" alt="Produk UMKM"
-                                class="w-full h-full object-cover">
+                        <div class="bg-gray-100 relative">
+                            <div class="aspect-[4/3] w-full overflow-hidden">
+                                <img src="{{ asset('storage/umkm_images/' . $umkm->gambar) }}" alt="Produk UMKM"
+                                    class="w-full h-full object-cover" />
+                            </div>
                             <div class="absolute bottom-4 left-4 flex space-x-2">
                                 <span class="bg-green-500 text-white text-xs px-2 py-1 rounded-full">Bahan Alami</span>
                                 <span class="bg-blue-500 text-white text-xs px-2 py-1 rounded-full">Handmade</span>
                             </div>
                         </div>
-                        <div class="grid grid-cols-4 gap-2 p-4">
+                        {{-- <div class="grid grid-cols-4 gap-2 p-4">
                             <div class="h-20 bg-gray-200 rounded-md overflow-hidden cursor-pointer">
                                 <img src="https://source.unsplash.com/random/200x200/?textile1" alt="Produk 1"
                                     class="w-full h-full object-cover">
@@ -70,7 +72,7 @@
                                 <img src="https://source.unsplash.com/random/200x200/?textile4" alt="Produk 4"
                                     class="w-full h-full object-cover">
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <!-- Detail Section -->
@@ -110,6 +112,19 @@
                             <p class="text-gray-600 leading-relaxed">
                                 {{ $umkm->deskripsi }}
                             </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm text-gray-600 mb-1">Pesan melalui :</p>
+                            <div class="flex space-x-4">
+                                <a href="https://wa.me/{{ $umkm->no_hp }}" target="_blank"
+                                    class="text-green-500 hover:scale-110 transition"><i
+                                        class="fab fa-whatsapp fa-2x"></i></a>
+                                <a href="#" class="text-blue-600 hover:scale-110 transition"><i
+                                        class="fab fa-facebook fa-2x"></i></a>
+                                <a href="#" class="text-pink-500 hover:scale-110 transition"><i
+                                        class="fab fa-instagram fa-2x"></i></a>
+                            </div>
                         </div>
 
                         {{-- <div class="mb-6">
